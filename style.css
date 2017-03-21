@@ -1,0 +1,45 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    font-family: monospace, sans-serif;
+    font-size: 1em;
+}
+
+.artists {
+    display: -webkit-flex;
+    display: flex;
+    background-color: darkgray;
+}
+
+.image {
+    max-width: 460px;
+}
+
+.description {
+    max-width: 705px;
+    top: 50%;
+    margin-top: 5em;
+    font-family: serif;
+    font-weight: inherit;
+    margin-left: 160px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
